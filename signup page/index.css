@@ -1,0 +1,75 @@
+body{
+    background-color: #609EA2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.myform{
+    width: 400px;
+    height: 500px;
+    margin: 250px auto;
+    border-radius: 10px;
+    background-color: gray;
+    padding: 10px 20px 30px;
+    box-shadow: inset 0px 2px 15px 7px whitesmoke;
+    font-size: 20px;
+    transition-duration: 1s;
+}
+.myform:hover{
+    background-color: aqua;
+}
+
+
+
+
+
+.myform .textlabel {
+    display: block;
+}
+
+.input input{
+    width: 100%;
+    font-size: 1em;
+    border: 2px solid rgb(26, 18, 1);
+    border-radius: 10px;
+    box-shadow: 100px rgb(199, 40, 23);
+    box-sizing: border-box;
+    padding: 10px 10px ;
+    margin: 10px 0px ;
+    
+}
+
+input:focus{
+    background-color: #AAE3E2;
+}
+
+.button{
+
+    text-align: center;
+    margin-top: -20px;
+   
+}
+button{
+    background-color: #1F8A70;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px 25px;
+    border: 2px solid #faf7f7;
+    box-shadow: 10px;
+    transition: 1s;
+}
+
+button:hover{
+    background: #057c5f;
+    transform: scale(1.1);
+    
+}
+
+.radio input{
+    accent-color: #050000;
+    transform: scale(1.5);
+}
+
+h1{
+    text-align: center;
+}

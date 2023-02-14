@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,black,whitesmoke);
+}
+
+form{
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(32, 35, 75, 0.37);
+    border-radius: 20px;
+    color: white;
+    border-left: 1px solid rgba(255, 255,255, .5);
+    border-top: 1px solid rgba(255, 255,255, .5);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    transition: 1s;
+   
+}
+
+/* form:hover{
+    transform: scale(1.1);
+    background: slategray;
+    box-sizing: 2px 2px 2px #000;
+    z-index: 2;
+
+} */
+
+h1{
+    font-size: 40px;
+    text-align:center;
+    margin-bottom: 10%;
+    opacity: .5;
+    
+}
+
+label{
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    opacity: .7;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+input{
+width: 80%;
+margin: 5% auto;
+margin-bottom: 8%;
+border: none;
+outline: none;
+background: transparent;
+color: white;
+border-bottom: 1px solid rgba(250, 248, 248, 0.2);
+opacity: .8;
+}
+
+button{
+    width: 50%;
+    margin: 3% auto;
+    color: white;
+    font-size: 15px;
+    opacity: .8;
+    background: rgba(250, 248, 248, 0.2);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 5px rgba(31, 38,135, .5);
+    border-left: 1px solid rgba(255, 255,255, .5);
+    border-top: 1px solid rgba(255, 255,255, .5);
+    
+}
+
+button:hover{
+    background: linear-gradient(to right,black,whitesmoke);
+    box-shadow: linear-gradient(to right,black,whitesmoke);
+    transition: .5s;
+    /* box-shadow: inset 0px 0px 5px rgb(73, 144, 214), 0px 0px 25px rgb(73, 150, 228),0px 0px 50px rgb(227, 230, 233); */
+    transform : scale(1,1)
+}
+
+a{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    opacity: .8;
+}
